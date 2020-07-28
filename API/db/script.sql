@@ -13,10 +13,6 @@ CREATE TABLE IF NOT EXISTS tb_profile(
     lang VARCHAR(5)
 );
 
-
-
-
-
 CREATE TABLE IF NOT EXISTS challenge (
     id INT(11) AUTO_INCREMENT NOT_NULL,
     title VARCHAR(255) NOT_NULL,
