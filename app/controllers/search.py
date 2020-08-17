@@ -1,5 +1,5 @@
 from . import controllers
 
-@controllers.route('/search')
+@controllers.route('/search', methods=["POST"])
 def search():
     return 'search page'
