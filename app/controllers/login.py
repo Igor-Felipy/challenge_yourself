@@ -1,10 +1,5 @@
 from . import controllers
 
-
-@controllers.route('/login/' , methods=['GET','POST'])
+@controllers.route('/login')
 def login():
-    pass 
-
-@controllers.route('/register/', methods=['GET','POST'])
-def register():
-    pass
+    return 'login page'

@@ -1,6 +1,5 @@
 from . import controllers
 
-
-@controllers.route('/search/', methods=['GET','POST'])
+@controllers.route('/search')
 def search():
-    pass 
+    return 'search page'
